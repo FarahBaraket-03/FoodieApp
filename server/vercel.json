@@ -1,15 +1,4 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "debut.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "debut.js"
-      }
-    ]
+   "rewrites":[{"source" : "/(.*)","destination":"debut.js"}]
   }
