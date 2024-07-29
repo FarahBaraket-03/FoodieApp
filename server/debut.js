@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/auth",routerUser)
 app.use("/recepie",routerRecepie)
 
-mongoose.connect("mongodb+srv://fbaraket48:bCHy0CZzg7KxlUj9@cluster0.sdp0giv.mongodb.net/recepies")
+mongoose.connect(process.env.Url)
 
 
 
