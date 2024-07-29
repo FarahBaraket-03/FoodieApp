@@ -14,6 +14,9 @@ app.use("/recepie",routerRecepie)
 
 mongoose.connect(process.env.Url)
 
+app.use('/',(req,res)=>{
+  res.json({messgae:'heloo'})
+})
 
 
 
