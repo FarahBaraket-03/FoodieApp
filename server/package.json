@@ -4,7 +4,7 @@
   "description": "",
   "main": "debut.js",
   "scripts": {
-    "start": "nodemon debut.js"
+    "start": "node debut.js"
   },
   "author": "farah",
   "license": "ISC",
